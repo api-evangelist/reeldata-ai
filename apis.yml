@@ -1,7 +1,32 @@
 aid: reeldata-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reeldata-ai.png
 name: ReelData AI
-description: ReelData AI is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  ReelData AI builds artificial intelligence software for land-based aquaculture,
+  helping recirculating aquaculture system (RAS) fish farms maximize growth,
+  minimize costs, and reduce risk across smolt, post-smolt, and on-growing
+  production. Its integrated AI suite includes AI Smart Feeding (ReelAppetite),
+  which monitors real-time population appetite to optimize feed and cut waste;
+  AI Biomass Monitoring (ReelWeight), a non-intrusive biomass estimation tool
+  returning results within hours; and AI Cameras (ReelVision), dual-function
+  cameras for fish-behavior monitoring, feed counting, and standard IP camera
+  use. Additional tools cover stress monitoring (ReelStress) and early disease
+  detection (ReelHealth). ReelData is a Techstars portfolio company serving major
+  operators including Samherji, Atlantic Sapphire, Kingfish Company, and Salmon
+  Evolution. As of this enrichment pass the company exposes no public developer
+  portal, API, or SDK surface; its products are delivered as on-site AI hardware
+  and software rather than a self-serve API.
 url: https://raw.githubusercontent.com/api-evangelist/reeldata-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +36,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Aquaculture
+- Artificial Intelligence
+- Computer Vision
+- Agriculture
+- Sustainability
+- Food Production
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,20 @@ maintainers:
 common:
 - type: Website
   url: https://reeldata.ai/
+- type: Blog
+  url: https://reeldata.ai/news
+- type: Support
+  url: https://reeldata.ai/contact
+- type: SignUp
+  url: https://reeldata.ai/request-a-demo
+- type: TermsOfService
+  url: https://reeldata.ai/terms
+- type: PrivacyPolicy
+  url: https://reeldata.ai/privacy
+- type: DomainSecurity
+  url: security/reeldata-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
