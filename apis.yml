@@ -52,7 +52,7 @@ tags:
 - Company
 - Aquaculture
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Agriculture
 - Sustainability
 - Food Production
@@ -64,6 +64,7 @@ tags_raw:
 - Agriculture
 - Sustainability
 - Food Production
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
